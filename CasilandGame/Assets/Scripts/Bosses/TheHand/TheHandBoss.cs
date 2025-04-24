@@ -12,8 +12,15 @@ namespace Casiland.Bosses.TheHand
         [Header("Prefabs:")] 
         public GameObject poolBallPrefab;
 
-        private readonly List<PoolBall> m_tableBalls = new();
+        [Header("AI Parameters:")]
+        public Vector2 minBallPos;
+        public Vector2 maxBallPos;
         
+        public int BallCount => m_tableBalls.Count;
+        public Vector2 RandomBallPos => new(Random.Range(minBallPos.x, maxBallPos.x),
+            Random.Range(minBallPos.y, maxBallPos.y));
+        
+        private readonly List<PoolBall> m_tableBalls = new();
         
         public void CreateBallAtHand(Transform hand)
         {
@@ -28,8 +35,6 @@ namespace Casiland.Bosses.TheHand
             ballComponent.SetShadowLocalPos(Vector2.down * 3);
             
             m_tableBalls.Add(ballComponent);
-            ai.BlackboardReference.SetVariableValue("Ball count", m_tableBalls.Count);
-
         }  
     }
 }

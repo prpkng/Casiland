@@ -1,5 +1,4 @@
 using System;
-using BRJ.Bosses.Snooker;
 using Casiland.Bosses.TheHand;
 using Unity.Behavior;
 using Unity.Properties;
@@ -9,18 +8,15 @@ using Action = Unity.Behavior.Action;
 namespace Casiland.AI.TheHand
 {
     [Serializable, GeneratePropertyBag]
-    [NodeDescription(name: "CreateBallAtHand", story: "Uses [TheHandBoss] to create a Pool ball at [Hand]", category: "Action/Bosses/TheHand", id: "dd7ac22a1428c5b9f617ee374cc11c0c")]
-    public partial class CreateBallAtHandAction : Action
+    [NodeDescription(name: "UpdateBallCount", story: "Update [ballCount] from [TheHandBoss]", category: "Action", id: "5694445ac716626837d05f5c5d387b17")]
+    public partial class UpdateBallCountAction : Action
     {
+        [SerializeReference] public BlackboardVariable<int> BallCount;
         [SerializeReference] public BlackboardVariable<TheHandBoss> TheHandBoss;
-        [SerializeReference] public BlackboardVariable<PoolHand> Hand;
 
         protected override Status OnStart()
         {
-            Debug.Log($"Action ran on {Hand.Value}");
-            
-            TheHandBoss.Value.CreateBallAtHand(Hand.Value.transform);
-            
+            BallCount.Value = TheHandBoss.Value.BallCount;
             return Status.Running;
         }
 
