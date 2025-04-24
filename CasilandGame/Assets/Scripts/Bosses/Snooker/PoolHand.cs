@@ -9,9 +9,9 @@ namespace BRJ.Bosses.Snooker
     {
         Idle,
         PoolHand,
-        HoldingStick,
-        HoldingStomp,
-        HoldingBall,
+        StickHand,
+        Stomp,
+        Carrying,
     }
 
     public class PoolHand : MonoBehaviour
@@ -40,9 +40,9 @@ namespace BRJ.Bosses.Snooker
             {
                 HandType.Idle => "Idle",
                 HandType.PoolHand => "Pool",
-                HandType.HoldingStick => "Point",
-                HandType.HoldingStomp => "Hold",
-                HandType.HoldingBall => "Carry",
+                HandType.StickHand => "Point",
+                HandType.Stomp => "Hold",
+                HandType.Carrying => "Carry",
                 _ => null
             });
         }

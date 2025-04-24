@@ -472,7 +472,7 @@ namespace BRJ.Bosses.Snooker
             // Set hand sprites
             leftHand.SetHand(HandType.PoolHand);
             leftHand.SetOrder(3);
-            rightHand.SetHand(HandType.HoldingStick);
+            rightHand.SetHand(HandType.StickHand);
             rightHand.SetOrder(5);
 
             nextStep += 0.9f;
@@ -665,8 +665,8 @@ namespace BRJ.Bosses.Snooker
             Game.Instance.Sound.BossMusic.With(b => b.SetAggressive());
             poolStick.parent = null;
 
-            leftHand.SetHand(HandType.HoldingStomp);
-            rightHand.SetHand(HandType.HoldingStomp);
+            leftHand.SetHand(HandType.Stomp);
+            rightHand.SetHand(HandType.Stomp);
             rightHand.SetOrder(5);
             leftHand.SetOrder(5);
             leftHandTransform.right = Vector3.left;
@@ -711,7 +711,7 @@ namespace BRJ.Bosses.Snooker
 
             var ball = Instantiate(ballPrefab, handTransform);
             ball.transform.localPosition = Vector3.zero;
-            var sb = ball.GetComponent<SnookerBall>();
+            var sb = ball.GetComponent<PoolBall>();
             var rb = ball.GetComponent<Rigidbody2D>();
             rb.simulated = false;
 
@@ -746,8 +746,8 @@ namespace BRJ.Bosses.Snooker
             yield return ReturnHands();
             poolStick.parent = null;
 
-            leftHand.SetHand(HandType.HoldingBall);
-            rightHand.SetHand(HandType.HoldingBall);
+            leftHand.SetHand(HandType.Carrying);
+            rightHand.SetHand(HandType.Carrying);
             var availableBallCount = availableBalls.Count(b => b);
             float count = (_currentBallCount - availableBallCount) / 2f;
 

@@ -7,7 +7,7 @@ namespace BRJ.Bosses.Snooker
 {
     public class BallDeathParticles : MonoBehaviour
     {
-        public SnookerBall ball;
+        public PoolBall ball;
         public SpriteRenderer[] sprites;
 
         public float duration;

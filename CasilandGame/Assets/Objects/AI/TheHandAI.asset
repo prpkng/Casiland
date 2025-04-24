@@ -1,0 +1,1012 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9005079842355298821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b27bb6d9a2c8d540a10dff10acc543e, type: 3}
+  m_Name: TheHandAI Debug Info
+  m_EditorClassIdentifier: 
+  m_CodeBreakPointsList: []
+--- !u!114 &-5413104408875396623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db920e62f70f420bb33c771449926fa4, type: 3}
+  m_Name: TheHandAI
+  m_EditorClassIdentifier: 
+  Graphs:
+  - rid: 5582670792133706160
+  RootGraph:
+    rid: 5582670792133706160
+  m_DebugInfo: {fileID: -9005079842355298821}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5582670792133706155
+      type: {class: 'BlackboardVariable`1[[Unity.Behavior.ConditionOperator, Unity.Behavior]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: 0
+    - rid: 5582670792133706156
+      type: {class: 'BlackboardVariable`1[[System.Int32, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: 0
+    - rid: 5582670792133706158
+      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: Carry
+    - rid: 5582670792133706160
+      type: {class: BehaviorGraphModule, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        AuthoringAssetID:
+          m_Value0: 13027967902574966310
+          m_Value1: 15082260558219724760
+        m_DebugInfo: {fileID: -9005079842355298821}
+        Root:
+          rid: 5582670792133706161
+        BlackboardReference:
+          rid: 5582670792133706162
+        BlackboardGroupReferences: []
+        m_ActiveNodes: []
+        m_NodesToTick: []
+        m_NodesToEnd:
+          rid: 5582670792133706163
+        m_EndedNodes:
+          rid: 5582670792133706164
+        m_VersionTimestamp: 638811019044877373
+    - rid: 5582670792133706161
+      type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        ID:
+          m_Value0: 11041890194429553240
+          m_Value1: 12717238380332175818
+        Graph:
+          rid: 5582670792133706160
+        m_Parent:
+          rid: -2
+        m_Child:
+          rid: 5582670792133706165
+        Repeat: 1
+        AllowMultipleRepeatsPerTick: 0
+    - rid: 5582670792133706162
+      type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        m_Blackboard:
+          rid: 5582670792133706166
+        m_Source: {fileID: -4632102898937986217}
+    - rid: 5582670792133706163
+      type: {class: 'Stack`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: mscorlib}
+      data: 
+    - rid: 5582670792133706164
+      type: {class: 'HashSet`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: System.Core}
+      data: 
+    - rid: 5582670792133706165
+      type: {class: BranchingConditionComposite, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        ID:
+          m_Value0: 2322647222703114026
+          m_Value1: 10349126723521310382
+        Graph:
+          rid: 5582670792133706160
+        m_Parent:
+          rid: 5582670792133706161
+        m_Children:
+        - rid: 5582670792133706167
+        m_Conditions:
+        - rid: 5582670792133706168
+        m_RequiresAllConditions: 0
+        True:
+          rid: 5582670792133706167
+        False:
+          rid: -2
+    - rid: 5582670792133706166
+      type: {class: Blackboard, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        m_Variables:
+        - rid: 5582670792133706169
+        - rid: 5582670792133706170
+        - rid: 5582670792133706171
+        - rid: 5582670792133706172
+        - rid: 5582670792133706173
+    - rid: 5582670792133706167
+      type: {class: SequenceComposite, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        ID:
+          m_Value0: 14439292093256629078
+          m_Value1: 16351874970317413004
+        Graph:
+          rid: 5582670792133706160
+        m_Parent:
+          rid: 5582670792133706165
+        m_Children:
+        - rid: 5582670792133706174
+        - rid: 5582670792133706175
+    - rid: 5582670792133706168
+      type: {class: VariableComparisonCondition, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        Graph:
+          rid: 5582670792133706160
+        Variable:
+          rid: 5582670792133706170
+        Operator:
+          rid: 5582670792133706155
+        ComparisonValue:
+          rid: 5582670792133706156
+    - rid: 5582670792133706169
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706170
+      type: {class: 'BlackboardVariable`1[[System.Int32, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 14481987024726721731
+          m_Value1: 13575761773194286518
+        Name: Ball count
+        m_Value: 0
+    - rid: 5582670792133706171
+      type: {class: 'BlackboardVariable`1[[Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 14812659179338667523
+          m_Value1: 10783886704747826862
+        Name: Boss Script
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706172
+      type: {class: 'BlackboardVariable`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17779247200406418721
+          m_Value1: 13489664780905000477
+        Name: Left Hand
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706173
+      type: {class: 'BlackboardVariable`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 837570968965638464
+          m_Value1: 13528645119130225138
+        Name: Right Hand
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706174
+      type: {class: SetHandTypeAction, ns: , asm: Assembly-CSharp}
+      data:
+        ID:
+          m_Value0: 3719079853332423720
+          m_Value1: 13600967193425180949
+        Graph:
+          rid: 5582670792133706160
+        m_Parent:
+          rid: 5582670792133706167
+        Hand:
+          rid: 5582670792133706172
+        Type:
+          rid: 5582670792133706158
+    - rid: 5582670792133706175
+      type: {class: CreateBallAtHandAction, ns: Casiland.AI.TheHand, asm: Assembly-CSharp}
+      data:
+        ID:
+          m_Value0: 15319835725823020569
+          m_Value1: 16305110623585371797
+        Graph:
+          rid: 5582670792133706160
+        m_Parent:
+          rid: 5582670792133706167
+        TheHandBoss:
+          rid: 5582670792133706171
+        Hand:
+          rid: 5582670792133706172
+--- !u!114 &-4632102898937986217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c02bb70996b49eba31d0c206e28da24, type: 3}
+  m_Name: TheHandAI Blackboard
+  m_EditorClassIdentifier: 
+  VersionTimestamp: 638811011355570449
+  AssetID:
+    m_Value0: 13027967902574966310
+    m_Value1: 15082260558219724760
+  m_Blackboard:
+    m_Variables:
+    - rid: 5582670756054565118
+    - rid: 5582670792133705893
+    - rid: 5582670792133706084
+    - rid: 5582670792133706126
+    - rid: 5582670792133706127
+  m_SharedBlackboardVariableGuids: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5582670756054565118
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 0}
+    - rid: 5582670792133705893
+      type: {class: 'BlackboardVariable`1[[System.Int32, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 14481987024726721731
+          m_Value1: 13575761773194286518
+        Name: Ball count
+        m_Value: 0
+    - rid: 5582670792133706084
+      type: {class: 'BlackboardVariable`1[[Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 14812659179338667523
+          m_Value1: 10783886704747826862
+        Name: Boss Script
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706126
+      type: {class: 'BlackboardVariable`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17779247200406418721
+          m_Value1: 13489664780905000477
+        Name: Left Hand
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706127
+      type: {class: 'BlackboardVariable`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 837570968965638464
+          m_Value1: 13528645119130225138
+        Name: Right Hand
+        m_Value: {fileID: 0}
+--- !u!114 &-1179760665270370084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd922ae02c94c87a66e46a10a7319b9, type: 3}
+  m_Name: TheHandAI Blackboard
+  m_EditorClassIdentifier: 
+  AssetID:
+    m_Value0: 13027967902574966310
+    m_Value1: 15082260558219724760
+  m_Variables:
+  - rid: 5582670756054565077
+  - rid: 5582670792133705879
+  - rid: 5582670792133706065
+  - rid: 5582670792133706107
+  - rid: 5582670792133706108
+  m_VersionTimestamp: 638811019044721791
+  m_CommandBuffer:
+    m_Commands: []
+  m_RuntimeBlackboardAsset: {fileID: -4632102898937986217}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5582670756054565077
+      type: {class: 'TypedVariableModel`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 5582670792133705879
+      type: {class: 'TypedVariableModel`1[[System.Int32, mscorlib]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 14481987024726721731
+          m_Value1: 13575761773194286518
+        Name: Ball count
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: 0
+    - rid: 5582670792133706065
+      type: {class: 'TypedVariableModel`1[[Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 14812659179338667523
+          m_Value1: 10783886704747826862
+        Name: Boss Script
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706107
+      type: {class: 'TypedVariableModel`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 17779247200406418721
+          m_Value1: 13489664780905000477
+        Name: Left Hand
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706108
+      type: {class: 'TypedVariableModel`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 837570968965638464
+          m_Value1: 13528645119130225138
+        Name: Right Hand
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad8f2220607dac4db5082ff333fafb8, type: 3}
+  m_Name: TheHandAI
+  m_EditorClassIdentifier: 
+  Blackboard: {fileID: -1179760665270370084}
+  m_Description: 
+  m_Nodes:
+  - rid: 5582670756054565078
+  - rid: 5582670792133705894
+  - rid: 5582670792133705895
+  - rid: 5582670792133705896
+  - rid: 5582670792133706023
+  - rid: 5582670792133706129
+  - rid: 5582670792133706136
+  m_VersionTimestamp: 638811019044877373
+  m_DebugInfo: {fileID: -9005079842355298821}
+  m_RuntimeGraph: {fileID: -5413104408875396623}
+  AssetID:
+    m_Value0: 13027967902574966310
+    m_Value1: 15082260558219724760
+  Story:
+    Story: 
+    StoryVariableNames: []
+    Variables: []
+  m_NodeModelsInfo:
+  - Name: On Start
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 3335272451348827663
+      m_Value1: 11549843281177505721
+    Variables: []
+    NamedChildren: []
+  - Name: Conditional Branch
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 12334964803190848789
+      m_Value1: 14608808926743427008
+    Variables: []
+    NamedChildren:
+    - True
+    - False
+  - Name: CreateBallAtHand
+    Story: 'Uses [TheHandBoss] to create a Pool ball at [Hand]'
+    RuntimeTypeID:
+      m_Value0: 13386149534510512861
+      m_Value1: 872784960903059446
+    Variables:
+    - Name: TheHandBoss
+      Type:
+        m_SerializableType: Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: Hand
+      Type:
+        m_SerializableType: BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    NamedChildren: []
+  - Name: SetHandType
+    Story: 'Set [Hand] sprite to [Type]'
+    RuntimeTypeID:
+      m_Value0: 6320442372823707127
+      m_Value1: 2719671099701158407
+    Variables:
+    - Name: Hand
+      Type:
+        m_SerializableType: BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    - Name: Type
+      Type:
+        m_SerializableType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      Tooltip: 
+    NamedChildren: []
+  - Name: Switch
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 7697158487413557231
+      m_Value1: 14836087705204215232
+    Variables:
+    - Name: EnumVariable
+      Type:
+        m_SerializableType: Unity.Behavior.BlackboardVariable, Unity.Behavior, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    NamedChildren: []
+  - Name: Cooldown
+    Story: Cooldowns for [duration] seconds after execution
+    RuntimeTypeID:
+      m_Value0: 11996061466798456745
+      m_Value1: 7008150615564501899
+    Variables:
+    - Name: Duration
+      Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      Tooltip: 
+    NamedChildren: []
+  - Name: Conditional Guard
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 10845871997924083670
+      m_Value1: 4041440894818793834
+    Variables: []
+    NamedChildren: []
+  - Name: Log Message
+    Story: Log [message] to the console
+    RuntimeTypeID:
+      m_Value0: 14362779694071371193
+      m_Value1: 7851297057022692581
+    Variables:
+    - Name: Message
+      Type:
+        m_SerializableType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      Tooltip: 
+    - Name: LogLevel
+      Type:
+        m_SerializableType: Unity.Behavior.LogMessageToConsoleAction+LogType, Unity.Behavior,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    NamedChildren: []
+  - Name: Run In Parallel
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 6216542881172158703
+      m_Value1: 2191282456596108218
+    Variables: []
+    NamedChildren: []
+  - Name: Wait For All
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 7660367652061089412
+      m_Value1: 18313906318609194151
+    Variables: []
+    NamedChildren: []
+  - Name: Start On Event Message
+    Story: 'When a message is received on [ChannelVariable]'
+    RuntimeTypeID:
+      m_Value0: 3356300611230043817
+      m_Value1: 5497005381991559097
+    Variables:
+    - Name: ChannelVariable
+      Type:
+        m_SerializableType: Unity.Behavior.BlackboardVariable, Unity.Behavior, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    NamedChildren: []
+  - Name: Sequence
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 10181448252506100447
+      m_Value1: 8737116843063128493
+    Variables: []
+    NamedChildren: []
+  - Name: Abort
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 11694760734451091187
+      m_Value1: 13156989698943900053
+    Variables: []
+    NamedChildren: []
+  - Name: Send Event Message
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 9965463903622711961
+      m_Value1: 5344335246459382461
+    Variables:
+    - Name: ChannelVariable
+      Type:
+        m_SerializableType: Unity.Behavior.BlackboardVariable, Unity.Behavior, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      Tooltip: 
+    NamedChildren: []
+  m_Blackboards: []
+  m_MainBlackboardAuthoringAsset: {fileID: -1179760665270370084}
+  m_CommandBuffer:
+    m_Commands: []
+  m_SubgraphsInfo: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5582670756054565078
+      type: {class: StartNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        Position: {x: 3.1999998, y: -60.8}
+        ID:
+          m_Value0: 11041890194429553240
+          m_Value1: 12717238380332175818
+        Parents: []
+        PortModels:
+        - rid: 5582670756054565079
+        NodeType:
+          m_SerializableType: Unity.Behavior.Start, Unity.Behavior, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        NodeTypeID:
+          m_Value0: 3335272451348827663
+          m_Value1: 11549843281177505721
+        m_FieldValues: []
+        Repeat: 1
+        AllowMultipleRepeatsPerTick: 0
+    - rid: 5582670756054565079
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670756054565078
+        m_Connections:
+        - rid: 5582670792133705897
+    - rid: 5582670792133705894
+      type: {class: BranchingConditionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        Position: {x: 2.6701877, y: 151.5736}
+        ID:
+          m_Value0: 2322647222703114026
+          m_Value1: 10349126723521310382
+        Parents: []
+        PortModels:
+        - rid: 5582670792133705897
+        - rid: 5582670792133705898
+        - rid: 5582670792133705899
+        NodeType:
+          m_SerializableType: Unity.Behavior.BranchingConditionComposite, Unity.Behavior,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        NodeTypeID:
+          m_Value0: 12334964803190848789
+          m_Value1: 14608808926743427008
+        m_FieldValues: []
+        <ConditionModels>k__BackingField:
+        - ConditionType:
+            m_SerializableType: Unity.Behavior.VariableComparisonCondition, Unity.Behavior,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          ConditionTypeID:
+            m_Value0: 4706153636540939941
+            m_Value1: 1154942553909992356
+          NodeModel:
+            rid: 5582670792133705894
+          m_FieldValues:
+          - rid: 5582670792133705908
+          - rid: 5582670792133705909
+          - rid: 5582670792133705916
+          OperatorFieldModel:
+            rid: 5582670792133705909
+        <RequiresAllConditionsTrue>k__BackingField: 0
+        <ShouldTruncateNodeUI>k__BackingField: 0
+    - rid: 5582670792133705895
+      type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        Position: {x: -316.10098, y: 261.1165}
+        ID:
+          m_Value0: 12518536455058155786
+          m_Value1: 13530391306737847821
+        Parents: []
+        PortModels:
+        - rid: 5582670792133705900
+        - rid: 5582670792133705901
+        ParentNodeID:
+          m_Value0: 2322647222703114026
+          m_Value1: 10349126723521310382
+        PortName: True
+    - rid: 5582670792133705896
+      type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        Position: {x: 283.4989, y: 252.43103}
+        ID:
+          m_Value0: 16570650885225992671
+          m_Value1: 10361017599767614671
+        Parents: []
+        PortModels:
+        - rid: 5582670792133705902
+        - rid: 5582670792133705903
+        ParentNodeID:
+          m_Value0: 2322647222703114026
+          m_Value1: 10349126723521310382
+        PortName: False
+    - rid: 5582670792133705897
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133705894
+        m_Connections:
+        - rid: 5582670756054565079
+    - rid: 5582670792133705898
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: True
+        m_PortDataFlowType: 1
+        m_IsFloating: 1
+        m_NodeModel:
+          rid: 5582670792133705894
+        m_Connections:
+        - rid: 5582670792133705900
+    - rid: 5582670792133705899
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: False
+        m_PortDataFlowType: 1
+        m_IsFloating: 1
+        m_NodeModel:
+          rid: 5582670792133705894
+        m_Connections:
+        - rid: 5582670792133705902
+    - rid: 5582670792133705900
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 1
+        m_NodeModel:
+          rid: 5582670792133705895
+        m_Connections:
+        - rid: 5582670792133705898
+    - rid: 5582670792133705901
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133705895
+        m_Connections:
+        - rid: 5582670792133706137
+    - rid: 5582670792133705902
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 1
+        m_NodeModel:
+          rid: 5582670792133705896
+        m_Connections:
+        - rid: 5582670792133705899
+    - rid: 5582670792133705903
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133705896
+        m_Connections: []
+    - rid: 5582670792133705908
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Variable
+        Type:
+          m_SerializableType: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        LocalValue:
+          rid: 5582670792133705917
+        LinkedVariable:
+          rid: 5582670792133705918
+    - rid: 5582670792133705909
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Operator
+        Type:
+          m_SerializableType: Unity.Behavior.ConditionOperator, Unity.Behavior, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 5582670792133705912
+        LinkedVariable:
+          rid: -2
+    - rid: 5582670792133705912
+      type: {class: 'BlackboardVariable`1[[Unity.Behavior.ConditionOperator, Unity.Behavior]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: 0
+    - rid: 5582670792133705916
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: ComparisonValue
+        Type:
+          m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        LocalValue:
+          rid: 5582670792133705919
+        LinkedVariable:
+          rid: -2
+    - rid: 5582670792133705917
+      type: {class: 'BlackboardVariable`1[[System.Int32, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: 0
+    - rid: 5582670792133705918
+      type: {class: 'TypedVariableModel`1[[System.Int32, mscorlib]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 14481987024726721731
+          m_Value1: 13575761773194286518
+        Name: Ball count
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: 0
+    - rid: 5582670792133705919
+      type: {class: 'BlackboardVariable`1[[System.Int32, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: 0
+    - rid: 5582670792133706023
+      type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        Position: {x: -315.06433, y: 419.73904}
+        ID:
+          m_Value0: 15319835725823020569
+          m_Value1: 16305110623585371797
+        Parents:
+        - rid: 5582670792133706136
+        PortModels:
+        - rid: 5582670792133706024
+        - rid: 5582670792133706025
+        NodeType:
+          m_SerializableType: Casiland.AI.TheHand.CreateBallAtHandAction, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        NodeTypeID:
+          m_Value0: 13386149534510512861
+          m_Value1: 872784960903059446
+        m_FieldValues:
+        - rid: 5582670792133706063
+        - rid: 5582670792133706105
+    - rid: 5582670792133706024
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133706023
+        m_Connections: []
+    - rid: 5582670792133706025
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133706023
+        m_Connections: []
+    - rid: 5582670792133706063
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: TheHandBoss
+        Type:
+          m_SerializableType: Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 5582670792133706064
+        LinkedVariable:
+          rid: 5582670792133706086
+    - rid: 5582670792133706064
+      type: {class: 'BlackboardVariable`1[[Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706086
+      type: {class: 'TypedVariableModel`1[[Casiland.Bosses.TheHand.TheHandBoss, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 14812659179338667523
+          m_Value1: 10783886704747826862
+        Name: Boss Script
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706105
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Hand
+        Type:
+          m_SerializableType: BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 5582670792133706106
+        LinkedVariable:
+          rid: 5582670792133706109
+    - rid: 5582670792133706106
+      type: {class: 'BlackboardVariable`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706109
+      type: {class: 'TypedVariableModel`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 17779247200406418721
+          m_Value1: 13489664780905000477
+        Name: Left Hand
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706129
+      type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        Position: {x: -326.64746, y: 413.13037}
+        ID:
+          m_Value0: 3719079853332423720
+          m_Value1: 13600967193425180949
+        Parents:
+        - rid: 5582670792133706136
+        PortModels:
+        - rid: 5582670792133706130
+        - rid: 5582670792133706131
+        NodeType:
+          m_SerializableType: SetHandTypeAction, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        NodeTypeID:
+          m_Value0: 6320442372823707127
+          m_Value1: 2719671099701158407
+        m_FieldValues:
+        - rid: 5582670792133706132
+        - rid: 5582670792133706133
+    - rid: 5582670792133706130
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133706129
+        m_Connections: []
+    - rid: 5582670792133706131
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133706129
+        m_Connections: []
+    - rid: 5582670792133706132
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Hand
+        Type:
+          m_SerializableType: BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        LocalValue:
+          rid: 5582670792133706134
+        LinkedVariable:
+          rid: 5582670792133706159
+    - rid: 5582670792133706133
+      type: {class: BehaviorGraphNodeModel/FieldModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
+      data:
+        FieldName: Type
+        Type:
+          m_SerializableType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        LocalValue:
+          rid: 5582670792133706135
+        LinkedVariable:
+          rid: -2
+    - rid: 5582670792133706134
+      type: {class: 'BlackboardVariable`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: {fileID: 0}
+    - rid: 5582670792133706135
+      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 0
+          m_Value1: 0
+        Name: 
+        m_Value: Carry
+    - rid: 5582670792133706136
+      type: {class: SequenceNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        Position: {x: -315.8472, y: 375.12222}
+        ID:
+          m_Value0: 14439292093256629078
+          m_Value1: 16351874970317413004
+        Parents: []
+        PortModels:
+        - rid: 5582670792133706137
+        - rid: 5582670792133706138
+        Nodes:
+        - rid: 5582670792133706129
+        - rid: 5582670792133706023
+    - rid: 5582670792133706137
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: InputPort
+        m_PortDataFlowType: 0
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133706136
+        m_Connections:
+        - rid: 5582670792133705901
+    - rid: 5582670792133706138
+      type: {class: PortModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        m_Name: OutputPort
+        m_PortDataFlowType: 1
+        m_IsFloating: 0
+        m_NodeModel:
+          rid: 5582670792133706136
+        m_Connections: []
+    - rid: 5582670792133706159
+      type: {class: 'TypedVariableModel`1[[BRJ.Bosses.Snooker.PoolHand, Assembly-CSharp]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 17779247200406418721
+          m_Value1: 13489664780905000477
+        Name: Left Hand
+        IsExposed: 1
+        m_IsShared: 0
+        m_Value: {fileID: 0}

@@ -3983,6 +3983,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8810538770698719780, guid: 520c7a3b9e0303b49ae85359d582bd85, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810538770698719780, guid: 520c7a3b9e0303b49ae85359d582bd85, type: 3}
       propertyPath: attenuationObject
       value: 
       objectReference: {fileID: 904665184}
