@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LDtkTileLayer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LDtkTileLayer",
+  "parent":{
+    "name":"LDtkLoader",
+    "path":"folders/LDtkLoader.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

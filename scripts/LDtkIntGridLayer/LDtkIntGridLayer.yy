@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LDtkIntGridLayer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LDtkIntGridLayer",
+  "parent":{
+    "name":"LDtkLoader",
+    "path":"folders/LDtkLoader.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

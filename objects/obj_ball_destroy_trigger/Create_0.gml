@@ -1,0 +1,1 @@
+follow_speed = 0.025;

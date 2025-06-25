@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ball_pick_color",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ball_pick_color",
+  "parent":{
+    "name":"TheHand",
+    "path":"folders/Scripts/Bosses/TheHand.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

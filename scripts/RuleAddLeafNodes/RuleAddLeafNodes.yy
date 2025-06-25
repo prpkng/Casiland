@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RuleAddLeafNodes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RuleAddLeafNodes",
+  "parent":{
+    "name":"RewritingSteps",
+    "path":"folders/Scripts/ProceduralGen/RewritingSteps.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

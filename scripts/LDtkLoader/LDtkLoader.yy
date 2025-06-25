@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LDtkLoader",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LDtkLoader",
+  "parent":{
+    "name":"LDtkLoader",
+    "path":"folders/LDtkLoader.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

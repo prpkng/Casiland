@@ -1,0 +1,1 @@
+scribble(string("[scale,0.25]BOSS_STATE: {0}", cur_state)).draw(2, 36);

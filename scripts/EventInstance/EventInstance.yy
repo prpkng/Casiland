@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"EventInstance",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EventInstance",
+  "parent":{
+    "name":"FMOD",
+    "path":"folders/Scripts/FMOD.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RuleFillDeadEnds",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RuleFillDeadEnds",
+  "parent":{
+    "name":"RewritingSteps",
+    "path":"folders/Scripts/ProceduralGen/RewritingSteps.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

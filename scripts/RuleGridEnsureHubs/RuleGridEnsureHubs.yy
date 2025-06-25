@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RuleGridEnsureHubs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RuleGridEnsureHubs",
+  "parent":{
+    "name":"PostGrid",
+    "path":"folders/Scripts/ProceduralGen/RewritingSteps/PostGrid.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"NodeGraphRewriting",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"NodeGraphRewriting",
+  "parent":{
+    "name":"ProceduralGen",
+    "path":"folders/Scripts/ProceduralGen.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Group_Easing",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Group_Easing",
+  "parent":{
+    "name":"Easing",
+    "path":"folders/Extensions/Easing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

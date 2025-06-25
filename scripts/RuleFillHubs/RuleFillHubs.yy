@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RuleFillHubs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RuleFillHubs",
+  "parent":{
+    "name":"RewritingSteps",
+    "path":"folders/Scripts/ProceduralGen/RewritingSteps.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
