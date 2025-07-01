@@ -1,6 +1,6 @@
-/// @param {Constant.NODE_TYPE} type1 
-/// @param {Constant.NODE_TYPE} type2 
-/// @param {Constant.NODE_TYPE} new_type 
+/// @param {Real} type1 
+/// @param {Real} type2 
+/// @param {Real} new_type 
 /// @param {Real} [count]
 /// @param {Real} [gen_chance] The chance of generating a node between
 function RuleAddNodeBetween(type1, type2, new_type, count=1, gen_chance=100) : RewriteStep() constructor{

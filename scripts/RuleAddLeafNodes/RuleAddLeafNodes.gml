@@ -1,5 +1,5 @@
-/// @param {Constant.NODE_TYPE} from 
-/// @param {Constant.NODE_TYPE} new_type 
+/// @param {Real} from 
+/// @param {Real} new_type 
 /// @param {Real} [count] The amount of nodes to generate (-1 means all possibilities)
 /// @param {Real} [gen_chance] The chance of generating a node between
 function RuleAddLeafNodes(from, new_type, count=-1, gen_chance=100) : RewriteStep() constructor {
